@@ -1,16 +1,22 @@
 *{
     font-family: 'Nunito Sans', sans-serif;
-
+    text-align: center;
 }
 
 ul {
     list-style: none;
 }
 
+section{
+    padding-top: 5vh;
+    font-size: 2.5vh;
+}
+
 .box{
     display: flex;
     margin-left: 10px;
     margin-top: 20px;
+
 }
 
 .nav{
@@ -26,11 +32,37 @@ ul {
 
 .contents{
     position: relative;
-    padding-left: 120px;
-    padding-right: 110px;
+    padding-left: 160px;
+    padding-right: 130px;
+}
+.firstline {
+    border-left: 3px solid rgb(2, 99, 135);
+    height: 100vh;
+    margin: 0 auto;
+    width: 2px;
+}
+.line {
+    border-left: 3px solid rgb(2, 99, 135);
+    height: 100vh;
+    margin: 0 auto;
+    width: 2px;
+    margin-top: 20px;
+
 }
 
-.footer{
+#heading{
+    margin-top: 23vh;
+    opacity: 1
+}
+#heading h1{
+    margin-bottom:0;
+    font-size: 10vh;
+}
+#heading p{
+    font-size: 3vh;
+}
 
+#skills{
+    padding-bottom: 20vh;
 
 }
